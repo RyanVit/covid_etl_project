@@ -10,3 +10,17 @@ logging.basicConfig(filename='logs/etl.log', level=logging.INFO,
 
 
 
+2024-09-03 22:07:58,412 - INFO - Starting ETL process.
+2024-09-03 22:07:58,420 - INFO - Data successfully extracted from file: ./data/covid_cases.csv. Total rows extracted: 10.
+2024-09-03 22:07:58,423 - INFO - Data successfully extracted from file: ./data/vaccination_data.csv. Total rows extracted: 20.
+2024-09-03 22:07:58,425 - INFO - Data successfully extracted from file: ./data/country_population.csv. Total rows extracted: 4.
+2024-09-03 22:07:58,437 - INFO - COVID-19 cases data transformed successfully.
+2024-09-03 22:07:58,447 - INFO - Vaccination data transformed successfully.
+2024-09-03 22:07:58,463 - INFO - Country population data transformed successfully.
+2024-09-03 22:07:58,579 - INFO - Data loaded successfully into table covid_cases.
+2024-09-03 22:07:58,579 - INFO - ----------------------------------------------------
+2024-09-03 22:07:58,658 - INFO - Data loaded successfully into table vaccination_data.
+2024-09-03 22:07:58,658 - INFO - ----------------------------------------------------
+2024-09-03 22:07:58,728 - INFO - Data loaded successfully into table country_population.
+2024-09-03 22:07:58,728 - INFO - ----------------------------------------------------
+2024-09-03 22:07:58,728 - INFO - ETL process completed successfully.
