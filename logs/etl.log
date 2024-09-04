@@ -1,0 +1,12 @@
+import os
+import logging
+
+# Cria o diretório logs se não existir
+if not os.path.exists('logs'):
+    os.makedirs('logs')
+
+logging.basicConfig(filename='logs/etl.log', level=logging.INFO,
+                    format='%(asctime)s:%(levelname)s:%(message)s')
+
+
+
